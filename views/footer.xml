@@ -1,1 +1,87 @@
-<odoo></odoo>
+<odoo>
+
+ <!-- Footer-->
+<template id="footer_custom" inherit_id="website.layout" name="Default">
+    <xpath expr="//footer" position="replace">
+        <div class="footer">
+        <div class="container pb-lg-5 pt-lg-5">
+		<div class="footer-column row ">
+			<div class="footer-column-one row flex-row">
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#"><span>Penguin Apparels</span></a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Why us?</a></li>
+						<li><a href="#">Process</a></li>
+						<li><a href="#">Clients Shipping</a></li>
+						<li><a href="#">Helps Support</a></li>
+						<li><a href="#">Jobs</a></li>
+					</ul>
+				</div>
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#">About Us</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Vision</a></li>
+						<li><a href="#">Awards</a></li>
+						<li><a href="#">Founders</a></li>
+					</ul>
+				</div>
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#">Products</a></li>
+						<li><a href="#">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#">Process</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Capability</a></li>
+						<li><a href="#">certification</a></li>
+						<li><a href="#">Clients</a></li>
+					</ul>
+				</div>
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#">Beyond Badge</a></li>
+						<li><a href="#">Empowerment</a></li>
+						<li><a href="#">Social activities</a></li>
+						<li><a href="#">Green Initatives</a></li>
+					</ul>
+				</div>
+				<div class="sub-col pr-md-4">
+					<ul class="list-unstyled">
+						<li class="footer-block-title mb-md-3"><a class="penguin" href="#">Contact</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Complaints</a></li>
+						<li><a href="#">Regular Compliance</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms condition</a></li>
+					</ul>
+				</div>		
+			</div>
+			<hr/>
+			<div class="footer-column-two">
+				<ul class="list-unstyled">
+					<li class="footer-block-title mb-md-3"><a class="penguin" href="#">Connect</a></li>
+					<li><a href="#">Linkedin</a></li>
+					<li><a href="#">Email</a></li>
+					<div class="social-logo">
+					<li> <a href="javascript:void(0);" class="fa fa-instagram"></a></li>
+					<li><a href="javascript:void(0);" class="fa fa-envelope"></a></li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<hr/>
+		<div class="copyright pb-md-4">
+			Copyright Reserved by Penguin Apparels - 2020.
+		</div>
+		</div>
+        </div>
+    </xpath>
+</template>
+
+</odoo>

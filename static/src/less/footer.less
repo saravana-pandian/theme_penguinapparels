@@ -1,0 +1,80 @@
+/*--------Footer----------*/
+
+.footer{
+    background-color: @base-color;
+    color: #fff;
+    a{
+        font-family: 'Muli-Regular';
+        font-size: 12px;
+        padding-bottom: 5px;
+        transition: all 0.5s ease;
+        &:hover{
+            color: @base-hover-color;
+        }
+    }
+    .penguin{
+       font-family: @base-font-family;
+       font-size: 15px;
+   }
+   .copyright{
+    font-family:'Muli-Regular';
+    font-size: 10px;
+   }
+   .social-logo{
+    display: none;
+}
+}
+//footer at 990px
+
+@media(max-width:990px){
+    .footer-column{
+    padding-top: 20px;
+    }
+}
+//footer at 768px
+
+@media(max-width:768px){
+.footer{    
+    .sub-col{
+        margin-right: 7px;
+    }
+    .copyright{
+        padding-bottom: 10px;
+    }
+}
+}
+//footer at 620px
+
+@media(max-width:620px){
+    .footer-column{
+        &-two{
+            display: none;
+        }
+        padding: 20px;
+        a{
+            display: none;
+        }
+        .penguin{
+            font-family:'Muli-Regular';
+            font-size: 12px;
+            padding: 10px, 0;
+            display: block;
+            span{
+                font-family: @base-font-family;
+                font-size: 14px;
+            }
+            
+        }
+        &-one{
+            display: inline-block;
+        }
+    }
+    .social-logo{
+        display: block;
+    }
+    //to decrease the size of company_summary heading
+    .sizeof-content-one{
+        text-align: center;
+        font-size: 50px;
+    }
+}
