@@ -1,1 +1,16 @@
-<odoo></odoo>
+<odoo>
+<odoo>
+<template id="my_js" inherit_id="website.assets_editor" name="My Js">
+    <xpath expr="script[last()]" position="after">
+        <script type="text/javascript" src="/theme_penguinapparels/static/src/js/dev_editor.js" />
+    </xpath>
+</template>
+<template id="assets_frontend" name="My style" inherit_id="website.assets_frontend">
+    <xpath expr="link[last()]" position="after">
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/variables.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/style.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/font.less"/>
+    </xpath>
+</template>
+</odoo>
+</odoo>
