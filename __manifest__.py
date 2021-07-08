@@ -27,7 +27,16 @@
         'views/assets.xml',
         'views/header.xml',
         'views/snippets.xml',
-        'views/footer.xml'
+        'views/footer.xml',
+        'views/content1.xml',
+        'views/content2.xml',
+        'views/content3.xml',
+        'views/content4.xml',
+        'views/content5.xml',
+        'views/content6.xml',
+        'views/content7.xml',
+        'views/content8.xml',
+        'views/content9.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

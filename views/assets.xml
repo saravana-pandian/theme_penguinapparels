@@ -13,12 +13,15 @@
         <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/global.less"/>
         <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/header.less"/>
         <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/footer.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-1.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-2.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-3.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-4.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-5.less"/>
-        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/component-6.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content1.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content2.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content3.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content4.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content5.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content6.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content7.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content8.less"/>
+        <link rel="stylesheet" type="text/less" href="/theme_penguinapparels/static/src/less/content9.less"/>
     </xpath>
 </template>
 </odoo>
