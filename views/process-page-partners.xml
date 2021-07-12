@@ -1,0 +1,68 @@
+<odoo>
+<template="s_content_process_page_partners" name="process page partners">
+<section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references" data-name="References">
+        <div class="container">
+          <h2 class="o_default_snippet_text primary-heading-big pt16" style="text-align: center;">We are Trusted Partners For the Popular Brands</h2>
+          <div class="row">
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner1.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner2.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partne3.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner4.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner5.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner6.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner7.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner8.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner9.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner10.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner11.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner12.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner13.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner14.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+            <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner15.png" class="img img-fluid mx-auto" alt="" loading="lazy" />
+            </div>
+             <div class="col-lg-2 pt16 pb16 o_colored_level">
+              <img src="/theme_penguin_apparels/static/src/images/logos/partner16.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+            </div>
+        </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_partner" inherit_id="website.snippets" name="Place into parter">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_process_page_partners" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<odoo>
