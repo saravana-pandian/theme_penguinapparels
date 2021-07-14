@@ -1,0 +1,43 @@
+<odoo>
+<template id="s_content_principles" name="content principles">
+<section class="s_text_image pt32 pb32 o_colored_level">
+           <div class="container">
+           <div class="row align-items-center">
+            <div class="col-lg-6 jumbotron rounded o_cc o_cc1 pt32 pb32 o_colored_level our-vission-one" data-name="Box">
+             <div class="row s_nb_column_fixed">
+              <h1>
+                <font class="primary-heading">Our Vissions</font>
+              </h1>
+              <p class="lead primary-paragraph">To be the World class Plant Producing Best-quality of ready made garments at optimum cost in an eco-freinedly, safe and healthy environment</p>
+              <p class="lead primary-paragraph">We will learn our customs enthusiasm by Providing the best customer experiance through our performence and continous improvement driven by integrity, teamwork and innovation</p>  
+            </div>
+          </div>
+        
+            <div class="col-lg-6 pt16 pb16 umbotron jumbotron-img rounded o_cc o_cc1 o_colored_level our-vission-two">
+             <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Striching-Machine-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Stretching-Machine-Web-View.png">
+                    <img src="/theme_penguin_apparels/static/src/images/Stretching-Machine-Web-View.png" class="img img-fluid mx-auto"/>
+            </source>
+              </source>
+            </picture>
+              </div>
+            </div>
+            <div class="col-lg-6 jumbotron jumbotron-img rounded o_cc o_cc1 pt32 pb32 o_colored_level our-vission-three" data-name="Box">
+            <div class="s_allow_columns o_container_small pb32 pt32 pl16 pr16">
+          <h1>
+            <font class="primary-heading text-white">Our Guiding Principles</font>
+          </h1>
+          <p class="lead primary-paragraph text-white">To perform to excced and to deliver best quality products on time, We strongly believe in pour guiding principles</p>
+            <a href="/contactus" class="primary-button text-white">Contact us</a>
+        </div>
+        </div>
+          </div>
+      </section>
+</template>
+<template id="place_into_two" inherit_id="website.snippets" name="Place into two">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_principles" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+</odoo>
