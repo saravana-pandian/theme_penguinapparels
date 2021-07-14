@@ -1,0 +1,27 @@
+<odoo>
+<template id="place_into_before" inherit_id="website.snippets" name="Place into brfore">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_top_banner" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template
+<template id="s_content_top_banner" name="top banner">
+<section class="centered-content o_cc  pt48 pb24">
+<div class="top-banner">
+     <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Mobile-View.jpg">
+                    <img class="img img-fluid img-max mx-auto" src="/theme_penguin_apparels/static/src/images/Banner-Web-View.png" alt="Bsnner Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+             <div class="center-banner">
+             <div class="primary-paragraph banner-text1">we are</div>
+             <div class="primary-heading banner-text2">Penguin Apparels</div>
+             <div class="banner-text3"></div>
+             </div>
+</div>
+</section>
+</template>
+</odoo>
