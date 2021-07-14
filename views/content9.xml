@@ -1,0 +1,66 @@
+<odoo>
+template id="s_content_company_ecosystem" name="content Company EcoSystem">
+  <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row justifycenter">
+             <div class="pt32 text-center o_colored_level">
+             <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Environment-Awarness-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Environment-Awarness-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Environment-Awarness-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Environment-Awarness-Web-View.png" alt="Environment Awareness image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+              <h3 class="primary-heading company-system">Environmental Awarness</h3>
+            </div>
+            <div class="pt32 text-center o_colored_level company-systems">
+             <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Energy-Managment-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Energy-Managment-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Energy-Managment-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Energy-Managment-Web-View.png" alt="Energy management Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            <h3 class="primary-heading company-system">Energy Management</h3>
+            </div>
+            <div class="pt32 text-center o_colored_level company-systems">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Employee-Training-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Employee-Training-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Employee-Training-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Employee-Training-Web-View.png" alt="Employee Employeement image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            <h3 class="primary-heading company-system">Employees Employeement</h3>
+            </div>
+            <div class="pt32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Project-Community-Web-View(1).png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Project-Community-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Project-Community-Web-View(1).png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Project-Community-Web-View.png" alt="Community Project Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+           <h3 class="primary-heading company-system">Community Projects</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+
+<template id="place_in_eightt" inherit_id="website.snippets" name="Place in eight">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_company_ecosystem"
+               t-thumbnail="/theme_penguin_apparels/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+</odoo>
