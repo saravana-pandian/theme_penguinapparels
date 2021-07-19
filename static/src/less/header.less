@@ -1,0 +1,242 @@
+/*------------Header----------*/
+header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+// max width of the navbar
+.menu-btn{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    .fa{
+        color: black;
+    }
+}
+  .max-width{
+    max-width: 100%;
+    padding: 0 40px;
+    margin: auto;
+}
+
+
+.tonavbar{
+    width: 100%;
+    padding: 35px 0;
+    font-family: @most-font-family;
+    margin-top: 0;
+    transition: all 0.4s ease;
+   
+    .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    //menu-button of mobile view
+    
+    .logo{
+        img{
+            height: 60px;
+            margin-top: -10px;
+        }
+        a{ 
+            text-decoration: none;
+            font-weight: 600;
+            color:@base-color;
+            font-size: 23px;
+            transition: 0.8s;
+            margin-bottom: -10px;
+        }
+        a:hover{
+            color:@base-hover-color;
+        }
+    }
+    .menu{
+            .contactbtn{
+                margin-left: 0;
+                margin: 20px 15px;
+            }
+        li{
+            list-style: none;
+            display: inline-block;
+        a{
+            color:@base-color;
+            font-size: 12px;
+            margin-left: 20px;
+            text-decoration: none;
+            transition: color 0.6s ease;
+        
+            &:hover{
+                color: @base-hover-color;
+                
+            }
+        }
+        
+    }
+    .logo{
+    display: none;
+    }
+    
+}
+
+}
+.activepage{
+    text-decoration: underline;
+}
+//home-banner
+
+
+//content - top banner
+.banner-text1{
+    font-size: 17px;
+    color: white;
+}
+.banner-text2{
+    font-size: 45px;
+    color: white;
+}
+.banner-text3{
+    cursor: pointer;
+
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+#top-banner-aboutus{
+    position: relative;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+    
+    display: none;
+}
+#top-banner-home{
+    position: relative;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+#top-banner-thebadge{
+    position: relative;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+    display: none;
+}
+
+.center-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+//header view at 902px
+
+@media(max-width:902px){
+    .max-width{
+        padding: 0 15px;
+    }
+    .tonavbar{
+    .menu{
+        li{
+            a{
+                margin-left: 14px;
+                font-size: 10px;
+            }
+        }
+    }
+    .logo-mobile-view{
+        a{
+            font-size: 14px;
+        }
+    }
+}
+}
+//header at mobile view of 700px
+
+@media(max-width:700px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+        
+        i.active:before{
+            content: "\f00d";
+        }
+    }
+    .banner-text1{
+        font-size: 12px;
+        color: white;
+    }
+    .banner-text2{
+        font-size: 23px;
+        color: white;
+    }
+    .banner-text3{
+        margin: auto;
+        height: 20px;
+        width: 20px;
+    }
+  .tonavbar {
+    
+    .logo {
+        margin: auto; 
+        a{
+            font-size: 18px;
+        }
+      }
+      //mobile view dropdown menu
+      .menu.active{
+        left: 0;
+      }
+      .menu{
+      position: absolute;
+      overflow: hidden;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      z-index: 5;
+      background:rgb(255, 255, 255);
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  li{
+      display: block;
+   a{
+      display: inline-block;
+      margin: 17px 0;
+      font-size: 15px;
+  }
+}
+  .logo{
+     display: block;
+     padding-bottom: 20px;
+  a{
+      font-size: 18px;
+  }
+    }
+  .primary-btn{
+      border: none;
+  }
+}
+  }
+  .sizeof-content-one{
+    font-size: 50px;
+}
+}
+

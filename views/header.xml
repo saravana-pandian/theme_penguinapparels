@@ -1,0 +1,124 @@
+<odoo>
+
+
+
+<!-- Header-->
+ <template id="replace_header" inherit_id="portal.frontend_layout" name="Header">
+    <xpath expr="//header" position="replace">
+     <div id="top-banners">
+    <div class="menu-btn">
+                <a href="javascript:void(0);">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+    <div id="top-banner-home">
+     <picture>
+              
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                    <img class="img img-fluid img-max fade-img mx-auto position-absolute" src="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png" alt="Bsnner Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            <picture>
+             <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Banner-Mobile-View.jpg">
+                    <img class="img img-fluid img-max fade-img mx-auto position-absolute" src="/theme_penguin_apparels/static/src/images/Banner-Web-View.png" alt="Bsnner Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+                   <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Footer-Banner-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Footer-Banner-Web_View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Footer-Banner-Tablet-View.jpg">
+                    <img class="img img-fluid img-max mx-auto" src="/theme_penguin_apparels/static/src/images/Footer-Banner-Web_View.png" alt="footer banner image"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+           
+            
+            <div class="center-banner">
+             <div class="primary-paragraph banner-text1">we are</div>
+             <div class="primary-heading banner-text2">Penguin Apparels</div>
+             <div class="banner-text3">
+             Change Please
+             </div>
+             </div>
+             
+</div>
+<div id="top-banner-aboutus">
+     <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png">
+                    <img class="img img-fluid img-max mx-auto" src="/theme_penguin_apparels/static/src/images/aboutus-page-banner-mobile-view.png" alt="Bsnner Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+              <div class="center-banner">
+             <div class="primary-heading banner-text2">"Whatever Your apparel dreams are we have the experience to make it a reality"</div>
+             <div class="primary-paragraph banner-text1">27 years in bussiness, our passion remains to develop interesting and innovative manufacturing methods to meet customer expectations</div>
+             </div>
+             
+</div>
+<div id="top-banner-thebadge">
+     <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/thebadge-page-banner-tablet-view.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/thebadge-page-banner-tablet-view.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/thebadge-page-banner-mobile-view.png">
+                    <img class="img img-fluid img-max mx-auto" src="/theme_penguin_apparels/static/src/images/thebadge-page-banner-tablet-view.png" alt="Banner Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+           <div class="center-banner">
+             <div class="primary-heading banner-text2">"Team work makes our dream work"</div>
+             <div class="primary-paragraph banner-text1">Our primary motto is to nuture and empower our team</div>
+             </div>
+</div>
+</div>
+        <header>
+          <link rel="stylesheet" type="text/css" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+         
+          <nav class="tonavbar">
+            <div class="max-width">
+             
+			  
+              <!--header banner-->
+
+
+
+
+
+
+
+
+
+			   <div class="logo logo-mobile-view">
+                <img src="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png" alt="Penguin Apparels Logo"/>
+                <a href="/../">Penguin Apparels</a>
+              </div>
+              <ul class="menu">
+                <div class="logo">
+                  <img src="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png" alt="Penguin Apparels Logo"/>
+                  <a href="/../">Penguin Apparels</a>
+                </div>
+                <li class="aboutus-link"><a href="/aboutus">ABOUT US</a></li>
+                <li class="product-link"><a href="/ourproduct">PRODUCT</a></li>
+                <li class="process-link"><a href="/process">PROCESS</a></li>
+                <li class="thebadge-link"><a href="/thebadge">BEYOND THE BADGE</a></li>
+                <li class="contactus-link"><a class="primary-button contactbtn" href="/contactus">REACH US</a></li>
+              </ul>   
+            </div>
+          </nav>
+        </header>
+    </xpath>
+</template>
+
+</odoo>
