@@ -1,0 +1,40 @@
+<odoo>
+
+<template id="s_contact_page_content_address" name="contecnt contact address">
+
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <h2 class="primary-heading">Registered Office</h2>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph">No.2, Meenakshi Nagar,
+            G.S.T road, Pafumalai,
+            Madurai - 625004
+            TAMILNADU, INDIA</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <h2 class="primary-heading">Factory Address</h2>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph">D-53, Industrial Estate, Kappalur,
+            H-12, Industrial Estate, Kappalur,
+            Madurai - 625008
+            TAMILNADU, INDIA</p>
+            </div>
+            </div>
+        </div>
+      </section>
+
+</template>
+<template id="place_into_contactdetail" inherit_id="website.snippets" name="Place into contactdetails">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_contact_page_content_address"
+                t-thumbnail="/theme_penguin_apparels/static/src/images/Banner-Mobile-View.jpg"/>
+    </xpath>
+</template>
+
+</odoo>

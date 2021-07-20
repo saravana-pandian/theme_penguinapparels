@@ -1,0 +1,33 @@
+<odoo>
+<template id="s_contact_page_contact_detail" name="conatact view">
+      <section class="s_features pt32 pb32 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 o_colored_level">
+                <h3 class="primary-heading">Phone</h3>
+                <p class="primary-paragraph">Office:+91 452-2372377/2372477</p>
+                <p class="primary-paragraph">Factory:+91 452-2482973/2482793</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 o_colored_level">
+              <h3 class="primary-heading">Email</h3>
+              <p class="primary-paragraph">anbukani@penguin_apparelsapparels.com</p>
+              <p class="primary-paragraph">manivannan@penguin_apparelsapparels.com</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 o_colored_level">
+               <h3 class="primary-heading">Fax</h3>
+                <p class="primary-paragraph">office: +91 452-2372226</p>
+                <p class="primary-paragraph">Factory: +91 452-2485621</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+
+<template id="place_into_contactpage" inherit_id="website.snippets" name="Place into contactpage">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_contact_page_contact_detail"
+                t-thumbnail="/theme_penguin_apparels/static/src/images/Banner-Mobile-View.jpg"/>
+    </xpath>
+</template>
+</odoo>
