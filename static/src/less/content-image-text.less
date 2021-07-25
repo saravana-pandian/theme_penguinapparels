@@ -1,0 +1,36 @@
+//text imaage view in aboutus page
+.aboutus-page-c-one{
+    &-img{
+    width: 750px;
+    height: 800px;
+    }
+    &-text1{
+        left: 170px;
+        z-index: 3;
+    }
+    &-text2{
+        right: 170px;
+        z-index: 4;
+    }
+}
+@media(max-width:1200px){
+    .aboutus-page-c-one{
+        &-img{
+        width: 750px;
+        height: 650px;
+        }
+    }
+}
+@media(max-width:990px){
+    .aboutus-page-c-one{
+        &-img{
+        width: 100%;
+        }
+        &-text1{
+            left: 0;
+        }
+        &-text2{
+            right: 0;
+        }
+    }
+}
